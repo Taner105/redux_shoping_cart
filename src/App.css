@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 1rem;
+  
+  
 }
+#image-detail {
+  width: 350px;
+  height: 450px;
+  margin-top: 100px;
+}
+.title-container{
+  margin-top: 100px;
+}
+.title-container h1{
+  color: red;
+}
+
